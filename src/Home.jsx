@@ -40,7 +40,7 @@ function Home() {
               <table className="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
+                    <th scope="col">Id</th>
                     <th scope="col">Name</th>
                     <th scope="col">Email</th>
                     <th scope="col">Handle</th>
@@ -49,7 +49,7 @@ function Home() {
                 <tbody> 
                  {students && students.map((student)=>(
                      <tr key={student.id}>
-                     <th scope="row">1</th>
+                     <th scope="row">{student.id}</th>
                      <td>{student.name}</td>
                      <td>{student.email}</td>
                      <td>
